@@ -69,3 +69,11 @@ Route::get('test', function(){
 
 Route::resource('sadi', 'studentController');
 // Route::get('sadi{id}', 'studentController@edit');
+
+Route::get('/',function(){
+    return view('index');
+});
+
+Route::get('table', function(){
+    return view('table');
+});

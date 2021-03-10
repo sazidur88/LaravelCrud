@@ -13,7 +13,8 @@ class studentController extends Controller
      */
     public function index()
     {
-        echo "<h1>This is student index</h1>";
+        // echo "<h1>This is student index</h1>";
+        
     }
 
     /**
