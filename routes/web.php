@@ -77,3 +77,10 @@ Route::get('/',function(){
 Route::get('table', function(){
     return view('table');
 });
+
+Route::get('/student/new', 'studentController@create');
+
+Route::post('/student/store', 'studentController@store');
+
+Route::get('/students', 'studentController@index');
+
